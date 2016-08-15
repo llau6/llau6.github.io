@@ -1,8 +1,26 @@
-table {
-    width: 70%;
-    margin:auto;
+p {
+    margin-top: 5px;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.content {
+    width: 60%;
+    margin: auto;
 }
 
+table {
+    width: 70%;
+    margin: auto;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin: auto;
+}
 td img {
     max-width: 100%;
     height: auto;
@@ -16,6 +34,7 @@ body {
 header {
     padding: 2.5em 2em 1em 2em;
     margin: auto;
+    margin-bottom: 3em;
     width: 80%;
     position: relative;
     z-index: 100;
