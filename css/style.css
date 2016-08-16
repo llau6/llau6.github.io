@@ -1,3 +1,10 @@
+.btn {
+    display: block;
+    text-align: center;
+    border-style: groove;
+    margin: 2em auto 2em auto;
+    width: 30%;
+}
 p {
     margin-top: 5px;
 }
@@ -51,14 +58,14 @@ header h1 {
     letter-spacing: 3px
 }
 
-nav a {
+a {
     text-decoration: none;
     color: #007acc;
     font-weight: bold;
     margin-right: 1em;
 }
 
-nav a:hover {
+a:hover {
     color: #4db8ff;
 
 }
