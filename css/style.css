@@ -12,6 +12,12 @@ h2 {
     margin-top: 50px;
     margin-bottom: 0;
 }
+#bio {
+    width: 20%;
+    margin: auto;
+    padding-top: 1em;
+}
+
 .content {
     width: 60%;
     margin: auto;
