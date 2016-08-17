@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lily Lau</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <header>
+        <h1>LILY LAU</h1>
+        <nav>
+            <a href="../index.html">About</a>
+            <a href="../portfolio/index.html">Portfolio</a>
+            <a href="../mule/index.html">Resume</a>
+            <a href="index3.html">Contact</a>
+        </nav>
+    </header>
 
+    <div class="content">
+        <img src="../img/vip_logo.png"/>
+        <h2>GOBABYGO!</h2>
+        <p>The GoBabyGo! project was started in 2006 by Cole Galloway at the University of Delaware. Since then, it has expanded to areas all over the country, including Georgia Tech. The project aims to help kids who have mobility disabilities, specifically crawling and walking problems. This is accomplished by modifying toy ride-on cars traditionally controlled by foot pedals to be controlled by hand inputs instead. The project requires both hardware and software modification and challenged my creativity in solving real-world problems.
+        </p>
+
+        <h2>PROJECT OVERVIEW</h2>
+        <p>Q. How long?
+            <br>A. 3 months</p>
+        <p>Q. With whom?
+            <br>A. Team of 5</p>
+        <p>Q. Using what?
+            <br>A. Android Studio, Arduino Uno, Bluetooth Module, H-Bridge, IR Sensors, Actuators
+        </p>
+
+        <h2>TOOLS</h2>
+        <p><i>Arduino Uno:</i>
+            <br>We programmed the Arduino Uno to read in the states sent from the joystick and write out those states to move the car. The Arduino also read in signals coming from the IR sensors we placed on the front and back of the car. As soon as the IR sensors reported an object in front or behind the car, the Arduino ceased writing out signals. Lastly, we attached a Bluetooth model to the Arduino so that it could respond to inputs wirelessly via mobile apps.
+        </p>
+        <p><i>Android Studio:</i>
+            <br>I used Android Studio to create a very simple app that sends signals wirelessly to an Arduino to change the motion of the car.
+        </p>
+
+        <h2>DESIGN QUESTIONS</h2>
+        <p><i>How should the child control the car?</i>
+            <br>The child we were designing for did not have good control of his feet, so we disabled the foot pedals that traditionally told the car to accelerate. In replace of the pedals, we decided to rewire power instead to a joystick that we mounted on top of the steering wheel. The joystick, in addition to starting the car, allows the child to steer as well.
+        </p>
+        <img src="../img/vip_joystick.png" style="width:50%; margin-top: 2em; margin-bottom:2em"/>
+        <p><i>How do we create a comfortable and safe seating situation?</i>
+            <br>Because our child was very young and did not have the best control of his upper body, we used PVC pipes and a foam board to create back support. We also put together a harness type seat belt to prevent the child from moving around too much and potentially hurting himself.
+        </p>
+        <img src="../img/vip_seating.png" style="width:70%; margin-top: 2em; margin-bottom:2em"/>
+        <p><i>What parental controls are necessary? What’s convenient?</i>
+            <br>We came up with the idea of creating a mobile app that will allow the parent to remotely control the child’s car. It can both steer the car in any direction or kill the power completely. Below is the interface of the app.
+        </p>
+        <img src="../img/vip_app.png" style="width:70%; margin-top: 2em; margin-bottom:2em"/>
+
+        <h2>DEMO</h2>
+        <p>This is a demonstration of how our app was used to control the motion of the car.
+        </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/j-L6C8m_CzA" frameborder="0" allowfullscreen></iframe>
+
+        <h2>CHECK IT OUT</h2>
+        <div class="btn">
+            <h3><a href="https://github.com/llau6/Team3App" target="_blank">View GitHub</a></h3>
+        </div>
+
+    </div>
 </body>
 </html>
