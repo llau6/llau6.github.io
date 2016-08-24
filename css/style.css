@@ -1,3 +1,30 @@
+#pro_pic {
+    float: left;
+    width: 30%;
+}
+
+#chat_box {
+    display: none;
+    float: left;
+    margin: 50px;
+    width: 20%;
+}
+.bubble {
+    background-color: lightskyblue;
+    float: left;
+    clear: left;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 0.5em;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+
+}
+
+.bubble p {
+    margin-bottom: 10px;
+}
+
 .gba_img {
     width: 40%;
     display: inline-block;
@@ -22,6 +49,7 @@ td h2 {
 
 p {
     margin-top: 5px;
+
 }
 
 h2 {
