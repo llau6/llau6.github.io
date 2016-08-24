@@ -12,11 +12,9 @@ $( document ).ready(function() {
         });
     });
 
-    $("#pro_pic").on('click', function() {
-        $("#chat_box").each(function() {
-            $(this).fadeIn("slow");
-        });
-    })
+    $(".bubble").each(function(index) {
+        $(this).delay(2000*index).fadeIn("slow");
+    });
 
 });
 

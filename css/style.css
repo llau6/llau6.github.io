@@ -4,12 +4,12 @@
 }
 
 #chat_box {
-    display: none;
     float: left;
     margin: 50px;
     width: 20%;
 }
 .bubble {
+    display: none;
     background-color: lightskyblue;
     float: left;
     clear: left;
