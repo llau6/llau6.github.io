@@ -1,16 +1,12 @@
 #pro_pic {
     float: left;
     width: 30%;
-    padding-bottom: 1000px;
-    margin-bottom: -1000px;
 }
 
 #chat_box {
     float: left;
-    margin: 50px;
+    margin: 100px;
     width: 20%;
-    padding-bottom: 1000px;
-    margin-bottom: -1000px;
 }
 .bubble {
     display: none;
