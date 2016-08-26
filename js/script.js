@@ -15,8 +15,6 @@ $( document ).ready(function() {
     $(".bubble").each(function(index) {
         $(this).delay(2000*index).fadeIn("fast");
     });
-    $("#pro_pic").height($("#chat_box").height());
-
 });
 
 
